@@ -1,0 +1,35 @@
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.location,
+.destination {
+    color: rgb(150, 137, 137);
+    display: block;
+    background-color: rgb(241, 236, 236);;
+    padding: 10px 15px;
+    width: 300px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.request-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.schedule-btn {
+    background-color: rgb(241, 236, 236);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+}

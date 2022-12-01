@@ -1,0 +1,9 @@
+.content {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.yes-btn, .no-btn {
+    padding: 2px 4px;
+}
