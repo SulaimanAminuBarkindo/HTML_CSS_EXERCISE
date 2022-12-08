@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-1,
+.item-3 {
+    background-color: lightblue;
+}
+
+.item-1 {
+    width: 50px;
+}
+
+.item-2 {
+    background-color: pink;
+    flex: 1;
+}
+
+.item-3 {
+    width: 75px;
+}

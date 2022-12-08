@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-rows: 70px 70px 70px;
+    width: 400px;
+    padding: 7px 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 5px;
+    align-items: flex-end;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details {
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.details p {
+    margin: 2px;
+}
+
+.title,
+.rank {
+    color: grey
+}
+
+.follow-btn {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.479);
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px lightblue;
+}
