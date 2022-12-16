@@ -1,0 +1,62 @@
+body {
+    width: 3000px;
+}
+
+.header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.control-btn {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-btn {
+    color: white;
+    background-color: blue;
+    padding: 10px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px lightblue;
+}
+
+.message-btn {
+    color: black;
+    background-color: rgb(168, 158, 158);
+    padding: 10px 14px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(230, 237, 240);
+}
+
